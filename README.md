@@ -5,7 +5,7 @@
 <h1 align="center">DFVEdit: <span>C</span>onditional <span>D</span>elta <span>F</span>low <span>V</span>ector for <span>Zero-shot</span> <span>V</span>ideo <span>Edit</span>ing</h1>
 
 <p align="center">
-  <a href="https://dfvedit.github.io/">
+  <a href="https://linglingcai0314.github.io/">
     <img alt="Project Page" src="https://img.shields.io/badge/🏠-Project%20Page-blue">
   </a>
   <a href="https://arxiv.org/pdf/2506.20967">
@@ -23,7 +23,7 @@
 </p>
 
 <h4 align="center">
-  <a href="https://dfvedit.github.io/">Lingling Cai</a><sup>1</sup> &nbsp;
+  <a href="https://linglingcai0314.github.io/">Lingling Cai</a><sup>1</sup> &nbsp;
   <a href="https://kangzhao2.github.io/">Kang Zhao</a><sup>2</sup> &nbsp;
   <a href="https://jacobyuan7.github.io/">Hangjie Yuan</a><sup>1,3</sup> &nbsp;
   <a>Xiang Wang</a><sup>2,4</sup> &nbsp;
@@ -45,7 +45,7 @@
 ## 🔥 Updates
 
 - **[2025-06-27]**: 🎉 Paper available on arXiv! [arXiv:2506.20967](https://arxiv.org/abs/2506.20967)
-- **[2025-03-03]**: 🔥 Code released for Wan2.1 model!
+- **[2026-03-06]**: 🔥 Code released for Wan2.1 model!
 
 ## 📖 Abstract
 
@@ -137,7 +137,7 @@ DFVEdit is significantly more efficient than attention-engineering-based methods
 
 | Comparison 1 | Comparison 2 | Comparison 3 |
 |:------------:|:------------:|:------------:|
-| [Watch](https://dfvedit.github.io/static/videos/1_comparison_1.mp4) | [Watch](https://dfvedit.github.io/static/videos/2_comparison_2.mp4) | [Watch](https://dfvedit.github.io/static/videos/3_comparison_3.mp4) |
+| [Watch](https://linglingcai0314.github.io/static/videos/1_comparison_1.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/2_comparison_2.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/3_comparison_3.mp4) |
 
 ### Ablation Results
 
@@ -145,7 +145,7 @@ DFVEdit is significantly more efficient than attention-engineering-based methods
 
 | Ablation 1 | Ablation 2 |
 |:----------:|:----------:|
-| [Watch](https://dfvedit.github.io/static/videos/4_ablation_1.mp4) | [Watch](https://dfvedit.github.io/static/videos/5_ablation_2.mp4) |
+| [Watch](https://linglingcai0314.github.io/static/videos/4_ablation_1.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/5_ablation_2.mp4) |
 
 ### Extensive Results
 
@@ -153,7 +153,7 @@ DFVEdit is significantly more efficient than attention-engineering-based methods
 
 | Example 1 | Example 2 | Example 3 | Example 4 |
 |:---------:|:---------:|:---------:|:---------:|
-| [Watch](https://dfvedit.github.io/static/videos/6_extensive_1.mp4) | [Watch](https://dfvedit.github.io/static/videos/7_extensive_2.mp4) | [Watch](https://dfvedit.github.io/static/videos/8_extensive_3.mp4) | [Watch](https://dfvedit.github.io/static/videos/9_extensive_4.mp4) |
+| [Watch](https://linglingcai0314.github.io/static/videos/6_extensive_1.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/7_extensive_2.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/8_extensive_3.mp4) | [Watch](https://linglingcai0314.github.io/static/videos/9_extensive_4.mp4) |
 
 ## 📦 Supported Models
 
@@ -403,8 +403,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 <p align="center">
-  <a href="https://dfvedit.github.io/">🏠 Project Page</a> •
+  <a href="https://linglingcai0314.github.io/">🏠 Project Page</a> •
   <a href="https://arxiv.org/pdf/2506.20967">📄 Paper</a> •
   <a href="https://github.com/LinglingCai0314/DFVEdit">📦 Code</a> •
-  <a href="https://dfvedit.github.io/static/videos/DFVEdit.mp4">🎬 Demo Video</a>
+  <a href="https://linglingcai0314.github.io/static/videos/DFVEdit.mp4">🎬 Demo Video</a>
 </p>
