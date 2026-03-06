@@ -1,0 +1,17 @@
+# Video Editing Task Configuration
+# ================================
+# 只包含任务特定的配置，默认值在代码中定义
+
+# 必填：输入输出
+input: ${DATA_ROOT}/long_videos_square/bear_square.mp4
+output: ${OUTPUT_ROOT}/video_editing/bear2polar
+
+# 必填：编辑提示词
+prompt_original: "a brown bear."
+prompt_target: "a polar bear."
+
+# 可选：覆盖默认值
+# model: cogvideox  # 默认使用 cogvideox，可选 wanx
+# num_frames: 28    # 默认根据模型自动选择
+# height: 512       # 默认根据模型自动选择
+# width: 512        # 默认根据模型自动选择

@@ -1,0 +1,11 @@
+# Image Editing Task Configuration
+# =================================
+
+input: ${DATA_ROOT}/images/dog.jpg
+output: ${OUTPUT_ROOT}/image_editing/dog2tiger
+
+prompt_original: "a photo of a dog."
+prompt_target: "a photo of a tiger."
+
+# Optional: use different model
+# model: sd21

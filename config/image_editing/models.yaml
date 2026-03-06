@@ -1,0 +1,30 @@
+# Image Editing Model Registry Configuration
+# ===========================================
+# 所有模型的默认配置集中管理
+
+defaults:
+  dtype: float32
+  device: cuda
+  seed: 42
+  num_inference_steps: 50
+  guidance_scale: 7.5
+  use_dds: true
+
+models:
+  sd15:
+    path: ${CKPT_ROOT}/stable-diffusion-v1-5
+    image:
+      height: 512
+      width: 512
+
+  sd21:
+    path: ${CKPT_ROOT}/stable-diffusion-2-1
+    image:
+      height: 768
+      width: 768
+
+  sdxl:
+    path: ${CKPT_ROOT}/stable-diffusion-xl-base-1.0
+    image:
+      height: 1024
+      width: 1024

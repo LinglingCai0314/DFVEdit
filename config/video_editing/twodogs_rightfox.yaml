@@ -1,0 +1,28 @@
+# Video Editing Task Configuration
+# ================================
+# Baseline-aligned with old_dfvedit/twodogs_rightfox.yaml
+
+input: ${DATA_ROOT}/twodogs.mp4
+mask: ${DATA_ROOT}/right_dog_mask.mp4
+output: ${OUTPUT_ROOT}/video_editing/twodogs_rightfox
+
+prompt_original: "The left dog and the right yellow dog"
+prompt_target: "The left dog and the right black cat"
+
+# Match old baseline sampling/setup
+height: 512
+width: 512
+num_frames: 25
+fps: 4
+start_frame: 0
+num_inference_steps: 50
+guidance_scale_source: 5
+guidance_scale_target: 15
+amplitude: 1
+
+# Match old save cadence
+save:
+  every: 5
+
+# Match old model size (old script hardcoded 14B)
+model: wan

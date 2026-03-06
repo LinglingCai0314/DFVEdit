@@ -1,0 +1,8 @@
+# Video Editing Task Configuration
+# ================================
+
+input: ${DATA_ROOT}/long_videos_square/man_moonwalk.mp4
+output: ${OUTPUT_ROOT}/video_editing/man2robot
+
+prompt_original: "A man doing moonwalk."
+prompt_target: "A shiny silver robot doing moonwalk."

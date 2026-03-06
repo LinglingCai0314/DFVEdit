@@ -1,0 +1,30 @@
+# Model Registry Configuration
+# ============================
+# 所有模型的默认配置集中管理
+
+defaults:
+  dtype: bfloat16
+  device: cuda
+  seed: 42
+  num_inference_steps: 50
+  guidance_scale_source: 5.0
+  guidance_scale_target: 15.0
+  amplitude: 1.0
+  use_dds: true
+
+models:
+  cogvideox:
+    path: ${CKPT_ROOT}/THUDM/CogVideoX-5b
+    video:
+      height: 512
+      width: 512
+      num_frames: 28
+      fps: 8
+
+  wan:
+    path: ${CKPT_ROOT}/Wan-AI/Wan2.1-T2V-14B-Diffusers
+    video:
+      height: 512
+      width: 864
+      num_frames: 40
+      fps: 10
